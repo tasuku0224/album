@@ -3,15 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>おしゃれなデジタルアルバム帳 | 大切な思い出を1冊の本にまとめる写真整理アプリ</title>
-  <meta name="description" content="『おしゃれなデジタルアルバム帳』は、日々の写真や大切な思い出を本のように束ねて美しく見返せるAndroid用写真整理アプリです。日付検索、並べ替え（新しい順・古い順）、機種変更時のデータ移行に対応。完全プライベート設計。">
-  <meta name="keywords" content="写真整理, アルバム, 写真アルバム, デジタルアルバム, 日付検索, 成長記録, 旅行写真, Androidアプリ, 写真管理">
-  
+  <title>おしゃれなデジタルアルバム帳｜写真整理・日付検索ができる無料アルバムアプリ（Android）</title>
+  <meta name="description" content="スマホの写真をテーマごとに本のように束ねて見返せる、Android向け無料の写真整理アルバムアプリ。日付検索・並べ替え・機種変更時のデータ移行に対応。写真は端末内だけで扱う完全プライベート設計で、オフラインでも使えます。">
+  <meta name="keywords" content="デジタルアルバム,写真整理アプリ,写真アルバム アプリ,アルバム帳,オフライン 写真 アルバム,Android アルバムアプリ,日付検索,写真管理,フォトブック,成長記録,推し活 写真,無料 写真アプリ">
+  <meta name="author" content="tasuku (平手 雅風)">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://tasuku0224.github.io/album/">
+  <link rel="alternate" hreflang="ja" href="https://tasuku0224.github.io/album/">
+  <link rel="alternate" hreflang="x-default" href="https://tasuku0224.github.io/album/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
   <!-- Open Graph / OGP -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="おしゃれなデジタルアルバム帳 | 写真整理・日付検索アプリ">
-  <meta property="og:description" content="大切な思い出を1冊の本に。写真整理・日付検索・並び替えができる簡単デジタルアルバム帳！">
+  <meta property="og:site_name" content="おしゃれなデジタルアルバム帳">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="おしゃれなデジタルアルバム帳｜写真整理・日付検索ができる無料アルバムアプリ">
+  <meta property="og:description" content="大切な思い出を1冊の本に。写真整理・日付検索・並び替えができる無料のデジタルアルバム帳。写真は外部に送信せず、オフラインでも見返せます。">
   <meta property="og:url" content="https://tasuku0224.github.io/album/">
+  <meta property="og:image" content="https://tasuku0224.github.io/album/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="おしゃれなデジタルアルバム帳 〜思い出の写真を、あなただけの「アルバム本」に。">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="おしゃれなデジタルアルバム帳｜写真整理・日付検索ができる無料アルバムアプリ">
+  <meta name="twitter:description" content="大切な思い出を1冊の本に。写真整理・日付検索・並び替えができる無料のデジタルアルバム帳。Android版をGoogle Playで配信中。">
+  <meta name="twitter:image" content="https://tasuku0224.github.io/album/og-image.png">
+  <meta name="twitter:image:alt" content="おしゃれなデジタルアルバム帳 〜思い出の写真を、あなただけの「アルバム本」に。">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -22,6 +43,8 @@
   <style>
     body { font-family: 'Noto Sans JP', sans-serif; }
     .phrase { display: inline-block; }
+    summary::-webkit-details-marker { display: none; }
+    details[open] .faq-icon { transform: rotate(180deg); }
   </style>
 </head>
 <body class="bg-amber-50/40 text-stone-800 antialiased selection:bg-amber-200">
@@ -144,9 +167,76 @@
           <div class="w-11 h-11 rounded-2xl bg-amber-100 flex items-center justify-center text-xl sm:text-2xl mb-5">🛡️</div>
           <h3 class="text-base sm:text-lg font-bold text-stone-900 mb-2">4. 安心の完全プライベート設計</h3>
           <p class="text-stone-600 leading-relaxed text-xs sm:text-sm">
-            アプリから外部サーバーへのデータ送信や第三者共有は一切ありません。大切な家族の写真やプライベートな思い出を、完全に安全な環境で保管できます。
+            アプリから外部サーバーへのデータ送信や第三者共有は一切ありません。通信がない場所でも、大切な家族の写真やプライベートな思い出を、完全に安全な環境で保管・閲覧できます。
           </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 sm:py-24 bg-white border-t border-stone-200/60">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10 sm:mb-12">
+        <span class="text-amber-800 font-bold text-xs sm:text-sm tracking-wider uppercase">FAQ</span>
+        <h2 class="text-xl sm:text-3xl font-extrabold text-stone-900 mt-1">よくある質問</h2>
+      </div>
+
+      <div class="space-y-3">
+        <details class="rounded-2xl bg-stone-50 border border-stone-200/80 px-5 py-4 sm:px-6 sm:py-5">
+          <summary class="flex items-start gap-3 cursor-pointer list-none">
+            <span class="text-amber-700 font-bold shrink-0 text-sm sm:text-base">Q.</span>
+            <span class="flex-1 font-bold text-stone-900 text-sm sm:text-base">完全に無料で使えますか？</span>
+            <svg class="faq-icon w-4 h-4 mt-1 shrink-0 text-stone-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </summary>
+          <p class="mt-3 pl-7 text-xs sm:text-sm text-stone-600 leading-relaxed">
+            はい、無料でご利用いただけます。月額料金やアプリ内課金はありません。Google Playからダウンロードしてお使いください。
+          </p>
+        </details>
+
+        <details class="rounded-2xl bg-stone-50 border border-stone-200/80 px-5 py-4 sm:px-6 sm:py-5">
+          <summary class="flex items-start gap-3 cursor-pointer list-none">
+            <span class="text-amber-700 font-bold shrink-0 text-sm sm:text-base">Q.</span>
+            <span class="flex-1 font-bold text-stone-900 text-sm sm:text-base">オフラインでも使えますか？</span>
+            <svg class="faq-icon w-4 h-4 mt-1 shrink-0 text-stone-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </summary>
+          <p class="mt-3 pl-7 text-xs sm:text-sm text-stone-600 leading-relaxed">
+            はい。写真とアルバムの情報はすべて端末内に保存され、アプリから外部サーバーへの通信を行わないため、機内モードや電波の届かない場所でもアルバムの作成・閲覧ができます（アプリのインストール時のみ通信が必要です）。
+          </p>
+        </details>
+
+        <details class="rounded-2xl bg-stone-50 border border-stone-200/80 px-5 py-4 sm:px-6 sm:py-5">
+          <summary class="flex items-start gap-3 cursor-pointer list-none">
+            <span class="text-amber-700 font-bold shrink-0 text-sm sm:text-base">Q.</span>
+            <span class="flex-1 font-bold text-stone-900 text-sm sm:text-base">写真が外部に送信される心配はありませんか？</span>
+            <svg class="faq-icon w-4 h-4 mt-1 shrink-0 text-stone-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </summary>
+          <p class="mt-3 pl-7 text-xs sm:text-sm text-stone-600 leading-relaxed">
+            ありません。本アプリは端末内完結型の設計で、写真やアルバム情報を外部に送信・収集しません。Google Playの「データ セーフティ」でも「データは収集されません」「第三者と共有されるデータはありません」と申告しています。
+          </p>
+        </details>
+
+        <details class="rounded-2xl bg-stone-50 border border-stone-200/80 px-5 py-4 sm:px-6 sm:py-5">
+          <summary class="flex items-start gap-3 cursor-pointer list-none">
+            <span class="text-amber-700 font-bold shrink-0 text-sm sm:text-base">Q.</span>
+            <span class="flex-1 font-bold text-stone-900 text-sm sm:text-base">機種変更のとき、アルバムは引き継げますか？</span>
+            <svg class="faq-icon w-4 h-4 mt-1 shrink-0 text-stone-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </summary>
+          <p class="mt-3 pl-7 text-xs sm:text-sm text-stone-600 leading-relaxed">
+            はい。バックアップ・引き継ぎ機能で、作成したアルバムを新しい端末へ移せます。データはご自身の操作で端末間またはご自身が管理するストレージを経由するため、開発者が中継・閲覧することはありません。
+          </p>
+        </details>
+
+        <details class="rounded-2xl bg-stone-50 border border-stone-200/80 px-5 py-4 sm:px-6 sm:py-5">
+          <summary class="flex items-start gap-3 cursor-pointer list-none">
+            <span class="text-amber-700 font-bold shrink-0 text-sm sm:text-base">Q.</span>
+            <span class="flex-1 font-bold text-stone-900 text-sm sm:text-base">iPhone（iOS）版はありますか？</span>
+            <svg class="faq-icon w-4 h-4 mt-1 shrink-0 text-stone-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </summary>
+          <p class="mt-3 pl-7 text-xs sm:text-sm text-stone-600 leading-relaxed">
+            現在はAndroid版のみの提供です。Google Playストアから無料でダウンロードできます。
+          </p>
+        </details>
       </div>
     </div>
   </section>
@@ -167,12 +257,119 @@
   <footer class="py-8 bg-stone-900 text-stone-400 text-xs text-center border-t border-stone-800">
     <div class="max-w-4xl mx-auto px-4">
       <div class="mb-3">
+        <a href="index.html#faq" class="hover:text-stone-200 underline underline-offset-4 transition">よくある質問</a>
+        <span class="mx-2 text-stone-600">|</span>
         <a href="privacy.html" class="hover:text-stone-200 underline underline-offset-4 transition">プライバシーポリシー</a>
       </div>
       <p class="mb-1.5">開発者: tasuku (平手 雅風)</p>
       <p>© 2026 tasuku. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Structured data: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "おしゃれなデジタルアルバム帳",
+    "alternateName": "Osharena Digital Album-cho",
+    "applicationCategory": "PhotographyApplication",
+    "applicationSubCategory": "写真整理・アルバム",
+    "operatingSystem": "Android",
+    "url": "https://tasuku0224.github.io/album/",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.tasuku.album",
+    "installUrl": "https://play.google.com/store/apps/details?id=com.tasuku.album",
+    "image": "https://tasuku0224.github.io/album/og-image.png",
+    "description": "日々の写真や大切な思い出を本のように束ねて見返せる、Android向けの無料写真整理アプリです。テーマごとのアルバム作成と並べ替え、日付検索、機種変更時のデータ移行に対応。写真は端末内にのみ保存され、外部サーバーへの送信や第三者共有はありません。",
+    "inLanguage": "ja",
+    "isAccessibleForFree": true,
+    "featureList": [
+      "本のように束ねるアルバム管理と並べ替え（新しい順・古い順）",
+      "日付から思い出を探せる「日にち検索」",
+      "機種変更時のバックアップ・データ引き継ぎ",
+      "外部送信なしの端末内完結設計（オフラインでも閲覧可能）"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "JPY",
+      "availability": "https://schema.org/InStock"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "tasuku（平手 雅風）",
+      "url": "https://github.com/tasuku0224"
+    },
+    "dateModified": "2026-11-16"
+  }
+  </script>
+
+  <!-- Structured data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "完全に無料で使えますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい、無料でご利用いただけます。月額料金やアプリ内課金はありません。Google Playからダウンロードしてお使いください。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "オフラインでも使えますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい。写真とアルバムの情報はすべて端末内に保存され、アプリから外部サーバーへの通信を行わないため、機内モードや電波の届かない場所でもアルバムの作成・閲覧ができます（アプリのインストール時のみ通信が必要です）。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "写真が外部に送信される心配はありませんか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ありません。本アプリは端末内完結型の設計で、写真やアルバム情報を外部に送信・収集しません。Google Playの「データ セーフティ」でも「データは収集されません」「第三者と共有されるデータはありません」と申告しています。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "機種変更のとき、アルバムは引き継げますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "はい。バックアップ・引き継ぎ機能で、作成したアルバムを新しい端末へ移せます。データはご自身の操作で端末間またはご自身が管理するストレージを経由するため、開発者が中継・閲覧することはありません。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "iPhone（iOS）版はありますか？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "現在はAndroid版のみの提供です。Google Playストアから無料でダウンロードできます。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "おしゃれなデジタルアルバム帳",
+    "alternateName": "おしゃれなデジタルアルバム帳 公式サイト",
+    "url": "https://tasuku0224.github.io/album/",
+    "inLanguage": "ja",
+    "publisher": {
+      "@type": "Person",
+      "name": "tasuku（平手 雅風）",
+      "url": "https://github.com/tasuku0224"
+    }
+  }
+  </script>
 
 </body>
 </html>
